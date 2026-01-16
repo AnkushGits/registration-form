@@ -1,0 +1,1 @@
+ # this is a simpal Registration form using only html 

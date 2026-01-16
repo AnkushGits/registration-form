@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="script.css">
+
+</head>
+<body>
+    <fieldset>
+        <legend> Registration Form</legend>
+     <div class="container">
+        <form>
+            <lable> FULL NAME </lable>
+            <input type="text" placeholder="Enter Your Name" required> <br><br>
+            
+            <label> E-mail</label>
+            <input type="email" placeholder="Enter Your email" required><br><br>
+
+            <label>type password</label>
+            <input type="password" placeholder="Enter Password" required><br><br>
+
+            <label>Phone Number</label>
+            <input type="tel" placeholder="eg.1234567809" required><br><br>
+
+            <label>Gender</label>
+            <div class="radio-group">
+              <input type="radio" name="gender"> Male
+              <input type="radio" name="gender"> Female 
+            </div><br>
+          
+            <label>Select Your Skills</label>
+            <div class="checkbox-group">
+             <input type="checkbox"> HTML
+             <input type="checkbox"> CSS
+             <input type="checkbox"> java
+            </div><br>
+
+            <label> Upload profile Photo</label>
+            <input type="file"> <br><br>
+            
+            <label>Message</label><br>
+            <textarea placeholder="Write something...." ></textarea><br><br>
+
+            <button type="submit">submit</button>
+            <button type="reset">reset</button>
+        </form>
+     </div>
+    </fieldset>
+</body>
+</html>
